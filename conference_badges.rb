@@ -14,6 +14,6 @@ end
 
 def printer(attendees)
    attendees.map {|person| 
-      puts "Hello, my name is #{person}"}
+      puts "Hello, my name is #{person}."}
    
 end 
