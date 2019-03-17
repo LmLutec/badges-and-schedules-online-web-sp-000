@@ -3,7 +3,15 @@ def badge_maker(name)
 end 
 
 def batch_badge_creator(attendees)
-   attendees.each {|person|
-      return "Hello, my name is #{person}."}.to_a 
+   attendees.map {|person|
+       "Hello, my name is #{person}."}
 end 
 
+def assign_rooms(attendees)
+  attendees.each_with_index.map {|attendees, index|
+   "Hello, #{attendees}! You'll be assigned to room #{index + 1}!"}
+end 
+
+def printer(attendees)
+  puts badge_maker(attendees[0])
+end 
