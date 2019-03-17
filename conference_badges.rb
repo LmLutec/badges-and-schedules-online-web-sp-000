@@ -22,6 +22,5 @@ def printer(attendees)
    puts badge_maker(attendees[6])
    puts badge_maker(attendees[7])
    
- end 
    
 end 
