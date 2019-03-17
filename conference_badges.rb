@@ -14,6 +14,6 @@ end
 
 def printer(attendees)
    attendees.each_with_index.map {|attendees, index| 
-      puts "Hello, my name is #{attendees}. You'll be assigned to room #{index + 1}!"}
+      puts "Hello, my name is #{attendees}." # You'll be assigned to room #{index + 1}!"}
    
 end 
