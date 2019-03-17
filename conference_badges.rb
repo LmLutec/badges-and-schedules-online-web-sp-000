@@ -13,7 +13,6 @@ def assign_rooms(attendees)
 end 
 
 def printer(attendees)
-    badge_maker.each do |person|
    puts badge_maker(attendees[0])
  end 
    
