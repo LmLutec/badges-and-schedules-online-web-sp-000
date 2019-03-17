@@ -14,6 +14,14 @@ end
 
 def printer(attendees)
    puts badge_maker(attendees[0])
+   puts badge_maker(attendees[1])
+   puts badge_maker(attendees[2])
+   puts badge_maker(attendees[3])
+   puts badge_maker(attendees[4])
+   puts badge_maker(attendees[5])
+   puts badge_maker(attendees[6])
+   puts badge_maker(attendees[7])
+   
  end 
    
 end 
