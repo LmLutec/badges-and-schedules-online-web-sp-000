@@ -16,6 +16,6 @@ end
 def printer(attendees)
   binding.pry
    batch_badge_creator(attendees).each_with_index.map {|attendees, index| 
-      puts "Hello, my name is #{attendees}."} # You'll be assigned to room #{index + 1}!"}
+      puts   You'll be assigned to room #{index + 1}!"}
    
 end 
