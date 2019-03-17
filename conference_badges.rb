@@ -14,6 +14,6 @@ end
 
 def printer(attendees)
   puts badge_maker(attendees).map {|person| 
-       "Hello, my name is #{person}"
+       "Hello, my name is #{person}"}
    
 end 
